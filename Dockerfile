@@ -17,4 +17,4 @@ RUN chmod +x /app/start.sh
 
 ENV OLLAMA_HOST=0.0.0.0:11434
 
-ENTRYPOINT ["/app/start.sh"]
+ENTRYPOINT ["/bin/bash", "/app/start.sh"]
